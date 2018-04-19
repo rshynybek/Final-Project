@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Solar System</title>
+<link href="assets/css/animation.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <h3>Drawing Animations with Canvas</h3>
+  </header>
+  <main>
+    <section id="drawing 1">
+      <header>
+        <h5>basic animations</h5>
+      </header>
+      <aside>
+        <h2>Click on a planet for more information</h2>
+        <h4 onclick="this.innerHTML = 'Mercury is the closest planet to the Sun. A single day on Earth is equivalent to 58 days on Mercury.'"> Mercury</h4>
+        <h4 onclick="this.innerHTML = 'information...'"> Venus</h4>
+        <h4 onclick="this.innerHTML = 'information...'"> Earth</h4>
+        <h4 onclick="this.innerHTML = 'information...'"> Mars</h4>
+        <h4 onclick="this.innerHTML = 'information...'"> Jupiter</h4>
+        <h4 onclick="this.innerHTML = 'information...'"> Saturn</h4>
+      </aside>
+      <canvas id="drawing" width="400" height="400">
+      </canvas>
+    </section>
+  </main>
+  <script src="./assets/js/animation.js"></script>
+</body>
+</html>

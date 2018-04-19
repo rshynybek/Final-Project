@@ -1,0 +1,13 @@
+body {
+  background-image: url("../images/space.jpg");
+  width: 500px;
+  margin: 100px;
+  color: #0000;
+}
+header {
+  font-size: 150%;
+  color: white;
+}
+section {
+  color: white;
+}
