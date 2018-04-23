@@ -5,6 +5,8 @@ var earth = new Image();
 var mars = new Image();
 var jupiter = new Image();
 var saturn = new Image();
+var uranus = new Image();
+var neptune = new Image();
 
 function init() {
   sun.src = 'https://mdn.mozillademos.org/files/1456/Canvas_sun.png';
@@ -14,6 +16,8 @@ function init() {
   mars.src = './assets/images/mars.png';
   jupiter.src = './assets/images/jupiter.png';
   saturn.src = './assets/images/saturn.png';
+  uranus.src = './assets/images/uranus.png';
+  neptune.src = './assets/images/neptune.png';
   window.requestAnimationFrame(draw);
 }
 
@@ -70,6 +74,20 @@ function draw() {
   context.translate(220,0);
   context.fillRect(0,0,0,0);
   context.drawImage(saturn,-12,-12);
+
+  //uranus
+  var time = new Date();
+  context.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
+  context.translate(240,0);
+  context.fillRect(0,0,0,0);
+  context.drawImage(uranus,-12,-12);
+
+  //neptune
+  var time = new Date();
+  context.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
+  context.translate(240,0);
+  context.fillRect(0,0,0,0);
+  context.drawImage(neptune,-12,-12);
 
   context.restore();
 
