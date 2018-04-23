@@ -5,30 +5,39 @@
 <title>The Solar System</title>
 <link href="assets/css/animation.css" rel="stylesheet" type="text/css">
 </head>
+<header style="text-align:right">
+  <h2>The Solar System</h2>
+</header>
 <body>
-  <header>
-    <h3>Drawing Animations with Canvas</h3>
-  </header>
   <main>
     <section id="drawing 1">
       <header>
-        <h5>basic animations</h5>
+        <h4>Moving Planet Animation</h4>
       </header>
       <aside>
         <h2>Click on a planet for more information</h2>
-        <h4 onclick="this.innerHTML = 'Mercury is the closest planet to the Sun. A single day on Earth is equivalent to 58 days on Mercury.'"> Mercury</h4>
-        <h4 onclick="this.innerHTML = 'information...'"> Venus</h4>
-        <h4 onclick="this.innerHTML = 'information...'"> Earth</h4>
-        <h4 onclick="this.innerHTML = 'information...'"> Mars</h4>
-        <h4 onclick="this.innerHTML = 'information...'"> Jupiter</h4>
-        <h4 onclick="this.innerHTML = 'information...'"> Saturn</h4>
+        <h3 onclick="this.innerHTML = 'Mercury is the closest planet to the Sun. A single day on Earth is equivalent to 58 days on Mercury.'"> Mercury</h4>
+        <h3 onclick="this.innerHTML = 'Venus is the hottest planet in the solar system. Although Venus is not the closest planet to the sun, its dense atmosphere traps heat in a version of the greenhouse effect that warms Earth.'"> Venus</h4>
+        <h3 onclick="this.innerHTML = 'Earth is the third planet from the Sun and is the largest of the terrestrial planets. Earth is the only planet not named after a god.'"> Earth</h3>
+        <h3 onclick="this.innerHTML = 'Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. In current news, Elon Musk wants to use his technology and resources to create a sustainable colony on Mars.'"> Mars</h3>
+        <h3 onclick="this.innerHTML = 'Jupiter is the fifth planet from the Sun and is two and a half times more massive than all the other planets in the solar system combined.'"> Jupiter</h3>
+        <h3 onclick="this.innerHTML = 'Saturn is the second largest planet and is best known for its ring system. The ring system was first observed in 1610 by the astronomer Galileo Galilei.'"> Saturn</h3>
+        <h3>
+        <a href="https://en.wikipedia.org/wiki/Solar_System">Solar System</a>
+        </h3>
       </aside>
-      <div id="canvas-container">
-      <canvas id="drawing" width="500" height="500">
+      <article>
+        <audio controls>
+          <source src="./assets/media/Space Jam Theme Song.mp3" type="audio/mpeg">
+          </audio>
+        </article>
+      <canvas id="drawing" width="700" height="700">
       </canvas>
-    </div>
     </section>
   </main>
   <script src="./assets/js/animation.js"></script>
+  <footer>
+    efiefie
+  </footer>
 </body>
 </html>

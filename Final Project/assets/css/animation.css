@@ -7,6 +7,7 @@ body {
 header {
   font-size: 150%;
   color: white;
+  font-family: "Papyrus", Helvetica, Georgia;
 }
 section {
   color: white;
@@ -14,4 +15,8 @@ section {
 canvas-container {
   width:100%;
   text-align:center;
+}
+
+aside {
+  color: turquoise;
 }
