@@ -6,8 +6,9 @@ body {
 }
 header {
   font-size: 150%;
-  color: white;
-  font-family: "Papyrus", Helvetica, Georgia;
+  color: yellow;
+  font-family: "Star Jedi", Helvetica, Georgia;
+  text-align: center;
 }
 section {
   color: white;
@@ -19,4 +20,5 @@ canvas-container {
 
 aside {
   color: turquoise;
+  font-family:"Nasalization", Helvetica, Georgia;
 }
